@@ -1,0 +1,32 @@
+{
+  "name": "webpack_svelte",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack -w"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "not ie <= 10"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "autoprefixer": "^9.8.4",
+    "babel-loader": "^8.1.0",
+    "core-js": "^3.6.5",
+    "css-loader": "^3.6.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.14.1",
+    "postcss": "^7.0.32",
+    "postcss-load-config": "^2.1.0",
+    "svelte": "^3.23.2",
+    "svelte-loader": "^2.13.6",
+    "svelte-preprocess": "^3.9.11",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
